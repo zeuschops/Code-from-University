@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="290.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.InventoryManager.AddExistingFXMLController">
+    <children>
+        <TableView fx:id="contentTable" layoutX="20.0" layoutY="264.0" prefHeight="114.0" prefWidth="560.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+            <columns>
+                <TableColumn prefWidth="139.5" text="Product ID" />
+                <TableColumn prefWidth="139.5" text="Product Name" />
+                <TableColumn prefWidth="139.5" text="Inventory Count" />
+                <TableColumn prefWidth="139.5" text="Product Price" />
+            </columns>
+        </TableView>
+      <Button onAction="#addPart" layoutX="20.0" layoutY="23.0" mnemonicParsing="false" text="Add" AnchorPane.bottomAnchor="363.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="525.0" AnchorPane.topAnchor="10.0" />
+      <Button onAction="#dismiss" layoutX="141.0" layoutY="10.0" mnemonicParsing="false" text="Cancel" AnchorPane.bottomAnchor="363.0" AnchorPane.leftAnchor="523.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0" />
+    </children>
+</AnchorPane>

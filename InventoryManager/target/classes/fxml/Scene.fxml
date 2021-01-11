@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="600" maxWidth="800" minHeight="600" minWidth="800" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.InventoryManager.MainFXMLController">
+    <children>
+        <Button fx:id="addProductButton" layoutX="20" layoutY="10" onAction="#handleAddProductButtonAction" text="Add Product" />
+        <Button fx:id="modifyProductButton" layoutX="130" layoutY="10" onAction="#handleModifyProductButtonAction" text="Modify Product" />
+        <Button fx:id="deleteProductButton" layoutX="250" layoutY="10" onAction="#handleDeleteProductButtonAction" text="Delete Product" />
+        <Button fx:id="searchProductButton" layoutX="250" layoutY="40" onAction="#handleSearchProductButtonAction" text="Search Product" />
+        <Button fx:id="addPartButton" layoutX="410" layoutY="10" onAction="#handleAddPartButtonAction" text="Add Part" />
+        <Button fx:id="modifyPartButton" layoutX="520" layoutY="10" onAction="#handleModifyPartButtonAction" text="Modify Part" />
+        <Button fx:id="deletePartButton" layoutX="640" layoutY="10" onAction="#handleDeletePartButtonAction" text="Delete Part" />
+        <Button fx:id="searchPartButton" layoutX="640" layoutY="40" onAction="#handleSearchPartButtonAction" text="Search Part" />
+        <Button fx:id="exitButton" layoutX="740" layoutY="10" onAction="#handleExitButtonAction" text="Exit" />
+        <TextField fx:id="productSearchField" layoutX="20" layoutY="40" maxHeight="28" maxWidth="215" minHeight="28" minWidth="215" />
+        <TextField fx:id="partSearchField" layoutX="410" layoutY="40" maxHeight="28" maxWidth="210" minHeight="28" minWidth="210" />
+        <Label fx:id="label" layoutX="20" layoutY="50" minHeight="16" minWidth="69" />
+        <Label fx:id="headerLabelA" layoutX="175" layoutY="75" maxHeight="16" maxWidth="70" minHeight="16" minWidth="70" />
+        <Label fx:id="headerLabelB" layoutX="575" layoutY="75" maxHeight="16" maxWidth="70" minHeight="16" minWidth="70" />
+        <TableView fx:id="productContentTable" layoutX="20" layoutY="100" maxHeight="475" maxWidth="370" minHeight="475" minWidth="370">
+         <columns>
+            <TableColumn prefWidth="92.0" text="Product ID" />
+            <TableColumn prefWidth="92.0" text="Product Name" />
+            <TableColumn prefWidth="92.0" text="Inv Count" />
+            <TableColumn prefWidth="92.0" text="Product Price" />
+         </columns></TableView>
+        <TableView fx:id="partContentTable" layoutX="410" layoutY="100" maxHeight="475" maxWidth="370" minHeight="475" minWidth="370">
+         <columns>
+            <TableColumn prefWidth="92.0" text="Part ID" />
+            <TableColumn prefWidth="92.0" text="Part Name" />
+            <TableColumn prefWidth="92.0" text="Inv Count" />
+            <TableColumn prefWidth="92.0" text="Part Price" />
+         </columns></TableView>
+    </children>
+</AnchorPane>

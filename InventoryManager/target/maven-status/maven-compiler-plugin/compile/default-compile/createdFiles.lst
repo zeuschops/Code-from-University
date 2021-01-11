@@ -1,0 +1,10 @@
+com/github/gaijinkindred/InventoryManager/AddPartFXMLController.class
+com/github/gaijinkindred/InventoryManager/AddProductFXMLController.class
+com/github/gaijinkindred/InventoryManager/DialogBox.class
+com/github/gaijinkindred/InventoryManager/InventoryObjects/Product.class
+com/github/gaijinkindred/InventoryManager/InventoryObjects/Inventory.class
+com/github/gaijinkindred/InventoryManager/InventoryObjects/Part.class
+com/github/gaijinkindred/InventoryManager/InventoryObjects/Outsourced.class
+com/github/gaijinkindred/InventoryManager/MainApp.class
+com/github/gaijinkindred/InventoryManager/MainFXMLController.class
+com/github/gaijinkindred/InventoryManager/InventoryObjects/InHouse.class

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400" maxWidth="600" minHeight="400" minWidth="600" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.InventoryManager.AddProductFXMLController">
+    <children>
+        <Button fx:id="saveButton" layoutX="20" layoutY="10" onAction="#save" text="Save" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="530.0" AnchorPane.topAnchor="10.0" />
+        <Button fx:id="addPart" layoutX="220" layoutY="10" onAction="#addPart" text="Add Part" AnchorPane.bottomAnchor="323.0" AnchorPane.leftAnchor="170.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="50.0" />
+        <Button fx:id="deletePart" layoutX="320" layoutY="10" onAction="#deletePart" text="Delete Part" AnchorPane.bottomAnchor="323.0" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="130.0" AnchorPane.topAnchor="50.0" />
+        <Button fx:id="addExistingPart" layoutX="131.0" layoutY="10.0" mnemonicParsing="false" onAction="#addExistingPart" text="Add Existing Part" AnchorPane.bottomAnchor="323.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="460.0" AnchorPane.topAnchor="50.0" />
+        <Button fx:id="removePart" layoutX="412.0" layoutY="10.0" mnemonicParsing="false" onAction="#removePart" text="Remove Part" AnchorPane.bottomAnchor="323.0" AnchorPane.leftAnchor="490.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0" />
+        <Button fx:id="cancelButton" layoutX="520" layoutY="10" onAction="#cancel" text="Cancel" AnchorPane.bottomAnchor="363.0" AnchorPane.leftAnchor="520.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0" />
+        <Label fx:id="idLabel" layoutX="20" layoutY="105" maxHeight="16" maxWidth="100" minHeight="16" minWidth="100" text="ID:" />
+        <TextField fx:id="idField" layoutX="120" layoutY="100" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="nameLabel" layoutX="20" layoutY="145" maxHeight="16" maxWidth="150" minHeight="16" minWidth="150" text="Name:" />
+        <TextField fx:id="nameField" layoutX="120" layoutY="140" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="inventoryLevelLabel" layoutX="20" layoutY="185" maxHeight="16" maxWidth="150" minHeight="16" minWidth="150" text="Inventory Level:" />
+        <TextField fx:id="inventoryLevelField" layoutX="120" layoutY="180" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="priceLabel" layoutX="20" layoutY="225" maxHeight="16" maxWidth="150" minHeight="16" minWidth="150" text="Price:" />
+        <TextField fx:id="priceField" layoutX="120" layoutY="220" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="maxValueLabel" layoutX="300" layoutY="105" maxHeight="16" maxWidth="150" minHeight="16" minWidth="150" text="Maximum Value:" />
+        <TextField fx:id="maxValueField" layoutX="400" layoutY="100" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="minValueLabel" layoutX="300" layoutY="145" maxHeight="16" maxWidth="150" minHeight="16" minWidth="150" text="Minimum Value:" />
+        <TextField fx:id="minValueField" layoutX="400" layoutY="140" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="companyNameValue" layoutX="300" layoutY="185" maxHeight="16" maxWidth="150" minHeight="16" minWidth="150" text="Company Name:" />
+        <TextField fx:id="companyNameField" layoutX="400" layoutY="180" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Button fx:id="searchButton" layoutX="500" layoutY="220" maxHeight="28" maxWidth="80" minHeight="28" minWidth="80" onAction="#search" text="Search" />
+        <TextField fx:id="searchBox" layoutX="300" layoutY="220" maxHeight="28" maxWidth="180" minHeight="28" minWidth="180" />
+        <TableView fx:id="partContentTable" layoutX="20.0" layoutY="264.0" prefHeight="114.0" prefWidth="560.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="270.0">
+            <columns>
+                <TableColumn prefWidth="139.5" text="Product ID" />
+                <TableColumn prefWidth="139.5" text="Product Name" />
+                <TableColumn prefWidth="139.5" text="Inventory Count" />
+                <TableColumn prefWidth="139.5" text="Product Price" />
+            </columns>
+        </TableView>
+      <Button onAction="#editPart" layoutX="283.0" layoutY="50.0" mnemonicParsing="false" text="Edit Part" AnchorPane.leftAnchor="280.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="50.0" />
+    </children>
+</AnchorPane>

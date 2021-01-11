@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="290.0" minHeight="400.0" minWidth="290.0" prefHeight="400.0" prefWidth="290.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.github.gaijinkindred.InventoryManager.AddPartFXMLController">
+    <children>
+        <Button fx:id="saveButton" layoutX="20" layoutY="10" onAction="#saveButton" text="Save" />
+        <Button fx:id="cancelButton" layoutX="213.0" layoutY="10" onAction="#cancelButton" text="Cancel" />
+        <Label layoutX="20" layoutY="50" maxHeight="28" maxWidth="100" minHeight="28" minWidth="100" text="Manufactured:" />
+        <RadioButton fx:id="inHouseRadioButton" onAction="#handleInHouseRadioButton" layoutX="120" layoutY="55" text="In-House" />
+        <RadioButton fx:id="outsourcedRadioButton" onAction="#handleOutsourcedRadioButton" layoutX="120" layoutY="75" text="Outsourced" />
+        <Label fx:id="idLabel" layoutX="20" layoutY="105" maxHeight="16" maxWidth="100" minHeight="16" minWidth="90.0" text="ID:" textAlignment="RIGHT" />
+        <TextField fx:id="idField" layoutX="120" layoutY="100" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="nameLabel" layoutX="20" layoutY="145" maxHeight="16" maxWidth="150" minHeight="16" minWidth="90.0" text="Name:" textAlignment="RIGHT" />
+        <TextField fx:id="nameField" layoutX="120" layoutY="140" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="inventoryLevelLabel" layoutX="20" layoutY="185" maxHeight="16" maxWidth="150" minHeight="16" minWidth="90.0" text="Inventory Level:" textAlignment="RIGHT" />
+        <TextField fx:id="inventoryLevelField" layoutX="120" layoutY="180" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="priceLabel" layoutX="20" layoutY="225" maxHeight="16" maxWidth="150" minHeight="16" minWidth="90.0" text="Price:" textAlignment="RIGHT" />
+        <TextField fx:id="priceField" layoutX="120" layoutY="220" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="maxValueLabel" layoutX="20" layoutY="265" maxHeight="16" maxWidth="150" minHeight="16" minWidth="90.0" text="Maximum Value:" />
+        <TextField fx:id="maxValueField" layoutX="120" layoutY="260" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="minValueLabel" layoutX="20" layoutY="305" maxHeight="16" maxWidth="150" minHeight="16" minWidth="90.0" text="Minimum Value:" />
+        <TextField fx:id="minValueField" layoutX="120" layoutY="300" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+        <Label fx:id="companyNameLabel" layoutX="20" layoutY="345" maxHeight="16" maxWidth="150" minHeight="16" minWidth="90.0" text="Company Name:" />
+        <TextField fx:id="companyNameField" layoutX="120" layoutY="340" maxHeight="28" maxWidth="150" minHeight="28" minWidth="150" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="120.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.InventoryManager.DialogBox">
+    <children> 
+        <Label fx:id="content" layoutX="20" layoutY="10" maxHeight="60" maxWidth="360" minHeight="60" minWidth="360" text="This is some placedholder text. This is where text comes to get held. Don't worry about this text, it's intended to be as long as possible for testing purposes. Hi this text is long, yes? Well yes, but actually no." wrapText="true" />
+        <Button layoutX="130" layoutY="80" maxHeight="30" maxWidth="60" minHeight="30" minWidth="60" onAction="#dismiss" text="OK" />
+        <Button layoutX="210" layoutY="80" maxHeight="30" maxWidth="60" minHeight="30" minWidth="60" onAction="#dismiss" text="Cancel" />
+    </children>
+</AnchorPane>
