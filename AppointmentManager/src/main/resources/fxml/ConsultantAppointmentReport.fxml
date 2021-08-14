@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.AppointmentManager.Window.ConsultantAppointmentReportController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.ConsultantAppointmentReportController">
    <children>
       <TableView fx:id="tableView" layoutX="200.0" layoutY="100.0" maxHeight="320.0" maxWidth="600.0" minHeight="320.0" minWidth="600.0" prefHeight="320.0" prefWidth="600.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columns>

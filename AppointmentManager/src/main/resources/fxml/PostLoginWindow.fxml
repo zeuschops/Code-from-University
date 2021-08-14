@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="385.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.AppointmentManager.Window.PostLoginWindowController">
+<AnchorPane prefHeight="385.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.PostLoginWindowController">
    <children>
       <Button fx:id="calButton" layoutX="50.0" layoutY="180.0" mnemonicParsing="false" onAction="#calendarButton" text="Calendar" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="440.0" AnchorPane.topAnchor="180.0" />
       <Button fx:id="appButton" layoutX="253.0" layoutY="200.0" mnemonicParsing="false" onAction="#appointmentsButton" text="Appointments" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="245.0" AnchorPane.rightAnchor="245.0" AnchorPane.topAnchor="180.0" />

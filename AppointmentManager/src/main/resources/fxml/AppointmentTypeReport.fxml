@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<AnchorPane maxHeight="450.0" maxWidth="300.0" minHeight="450.0" minWidth="300.0" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.AppointmentManager.Window.AppointmentTypeReportController">
+<AnchorPane maxHeight="450.0" maxWidth="300.0" minHeight="450.0" minWidth="300.0" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.AppointmentTypeReportController">
    <children>
       <Label fx:id="januaryLabel" layoutX="132.0" layoutY="117.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="80.0" />
       <Label fx:id="februaryLabel" layoutX="142.0" layoutY="127.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="110.0" />

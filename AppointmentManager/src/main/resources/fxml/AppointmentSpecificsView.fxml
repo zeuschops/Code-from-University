@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="400.0" maxWidth="350.0" minHeight="400.0" minWidth="350.0" prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.AppointmentManager.Window.AppointmentSpecificsViewController">
+<AnchorPane maxHeight="400.0" maxWidth="350.0" minHeight="400.0" minWidth="350.0" prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.AppointmentSpecificsViewController">
    <children>
       <TextField fx:id="typeField" layoutX="130.0" layoutY="44.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="115.0" />
       <Button fx:id="submitButton" layoutX="52.0" layoutY="253.0" mnemonicParsing="false" onAction="#submitButtonAction" text="Submit" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" />

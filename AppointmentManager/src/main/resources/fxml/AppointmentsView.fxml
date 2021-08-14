@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="402.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.gaijinkindred.AppointmentManager.Window.AppointmentsViewController">
+<AnchorPane prefHeight="402.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.AppointmentsViewController">
    <children>
       <Button fx:id="addButton" layoutX="110.0" layoutY="39.0" mnemonicParsing="false" onAction="#addAppointment" text="Add" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="20.0" />
       <Button fx:id="updateButton" layoutX="198.0" layoutY="40.0" mnemonicParsing="false" onAction="#updateAppointment" text="Modify Appointment" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="234.0" AnchorPane.rightAnchor="234.0" AnchorPane.topAnchor="20.0" />
